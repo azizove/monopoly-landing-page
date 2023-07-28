@@ -1,0 +1,95 @@
+/* Add styles for the header and navigation */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header .logo-image {
+  width: 250px; /* Set the desired width for the logo */
+  margin-right: 10px;
+}
+
+header .logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-right: 15px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Additional styles for the sections (feel free to customize further) */
+section {
+  padding: 50px 0;
+}
+
+section h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Add CSS class for fade-in animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-in.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#hero {
+  margin-top: 100px;
+}
